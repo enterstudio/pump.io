@@ -7,6 +7,12 @@
     <form id="post-note" class="form-horizontal">
       <fieldset>
         <textarea id="note-content" class="span5" name="note" rows="6"></textarea>
+        <label for="note-action-name">Action</label>
+        <input id="note-action-name" class="span5" name="action-name">
+        <label for="note-action-handler">Action Handler Type</label>
+        <input id="note-action-handler" class="span5" name="action-handler">
+        <label for="note-action-url">URL (implies HttpActionHandler)</label>
+        <input id="note-action-url" class="span5" name="action-url">
         <div>
           <%= partial("recipient-selector", {name: "to", id: "note-to", label: "To"}) %>
         </div>

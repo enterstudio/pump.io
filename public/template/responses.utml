@@ -10,4 +10,13 @@
     <% } else { %>
     <a class="share" href="#">Share <i class="icon-share-alt"></i></a>
     <% } %>
+<%
+    _.each(obj.actions, function(actionHandlers, actionName) {
+        if (actionName !== 'objectType') { //sanity check, we have an extra property in actions dictionary
+%>
+    <a class="hide" data-action="<%= actionName %>" href="#"><%= actionName %></a>
+<%
+        }
+    });
+%>
 </div>

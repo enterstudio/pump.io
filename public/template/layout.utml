@@ -121,12 +121,16 @@
     <script src="/javascript/libs/bootstrap-wysihtml5.js"></script>
     <script src="/javascript/libs/bootstrap-lightbox.min.js"></script>
     <% } %>
+    <script src="/javascript/libs/incubator/js/activitystreams-actions.js"></script>
+
     <script src="/javascript/pump.js"></script>
     <script src="/javascript/pump/auth.js"></script>
     <script src="/javascript/pump/model.js"></script>
     <script src="/javascript/pump/router.js"></script>
     <script src="/javascript/pump/socket.js"></script>
     <script src="/javascript/pump/view.js"></script>
+    <script src="/javascript/pump/actions.js"></script>
+
 
     <% _.each(config.scripts, function(script) { %>
     <script src="<%= script %>"></script>

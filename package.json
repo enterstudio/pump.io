@@ -14,7 +14,7 @@
     },
     "dependencies": { "connect": "1.x",
                       "connect-auth": "0.5.3",
-                      "express": "2.5.x",
+                      "express": "3.11.0",
                       "utml": "0.2.x",
                       "underscore": "1.4.x", 
                       "underscore-contrib": "0.1.x", 
@@ -35,7 +35,7 @@
                       "mkdirp": "0.3.x",
 		      "connect-databank": "0.13.x",
                       "sockjs": "0.3.x",
-                      "dialback-client": "~0.1.5",
+                      "dialback-client": "~0.2.0",
 		      "gm": "1.9.x",
                       "set-immediate": "0.1.x",
                       "crypto-cacerts": "0.1.x"

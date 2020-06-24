@@ -30,7 +30,7 @@
                       "showdown": "0.3.x",
                       "jankyqueue": "0.1.x",
                       "schlock": "~0.2.1",
-                      "bunyan": "0.16.x",
+                      "bunyan": "1.8.13",
                       "emailjs": "0.3.x",
                       "mkdirp": "0.3.x",
 		      "connect-databank": "0.13.x",

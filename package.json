@@ -25,7 +25,7 @@
                       "step": "0.0.x",
                       "oauth-evanp": "~0.9.10-evanp.2",
                       "optimist": "0.3.x",
-                      "validator": "0.4.x",
+                      "validator": "13.6.0",
                       "webfinger": "~0.4.2",
                       "showdown": "0.3.x",
                       "jankyqueue": "0.1.x",

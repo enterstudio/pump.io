@@ -36,7 +36,7 @@
 		      "connect-databank": "0.13.x",
                       "sockjs": "0.3.x",
                       "dialback-client": "~0.1.5",
-		      "gm": "1.9.x",
+		      "gm": "1.23.1",
                       "set-immediate": "0.1.x",
                       "crypto-cacerts": "0.1.x"
 		    },
